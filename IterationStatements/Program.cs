@@ -81,14 +81,16 @@ namespace IterationStatements
             //    - Less than or equal to the number of items in "numbers" (use "numbers.Count")
             //    - Greater than or equal to 0
             // c) Decrement "i" by 1 in each iteration
-            for(int i = 199; i >= numbers.Count && i >= 0; i --)
+            for(int i = 199; i <= numbers.Count && i >= 0; i--)
             {
                 //TODO - Inside the loop, place numbers[i] inside of the Console.WriteLine() method
-                Console.WriteLine(numbers[i]); // Example placement of numbers[i] inside Console.WriteLine
+                Console.WriteLine(numbers[i]); 
+                
+                // Example placement of numbers[i] inside Console.WriteLine
             }
 
             //------------End of exercise
-
+            
         }
     }
 }
